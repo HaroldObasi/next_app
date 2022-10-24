@@ -1,9 +1,11 @@
 import data from "./data" assert { type: "json" };
 
-export default () => (
+// eslint-disable-next-line react/display-name
+const Links = () => (
     <div>
         {data.map((item) => (
             <div
+                key={item.id}
                 id={item.id}
                 onClick={() => (window.location.href = item.url)}
                 className="bg-gray-200 text-center rounded-md mx-[20px] lg:mx-[144px] py-5 my-4  cursor-pointer hover:bg-gray-300"
@@ -23,3 +25,5 @@ export default () => (
         </div>
     </div>
 );
+
+export default Links;
