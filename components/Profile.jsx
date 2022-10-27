@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Profile = () => {
     return (
         <div className="flex flex-col items-center my-10">
@@ -18,20 +16,15 @@ const Profile = () => {
                     />
                 </div>
             </div>
-            <div className="group hidden rounded-full sm:flex mr-[100px] absolute right-0 top-5 lg:mr-[300px] justify-center items-center hover:bg-gray-50 cursor-pointer w-[40px] h-[40px] border-dashed border">
+
+            <div className="group peer hidden rounded-full sm:flex mr-[100px] absolute right-0 top-5 lg:mr-[300px] justify-center items-center hover:bg-gray-50 cursor-pointer w-[40px] h-[40px] border-dashed border">
                 <img src="/icon.svg" alt="" />
                 <div className="hidden absolute h-0 right-[-10px] bottom-5 group-hover:inline">
                     <img src="/cursor.svg" alt="" />
                 </div>
-                <div className="absolute">
-                    {/* <img src="/bubble.svg" alt="" /> */}
-                    <Image
-                        src="/bubble.svg"
-                        height={1000}
-                        width={1000}
-                        quality={100}
-                    />
-                </div>
+            </div>
+            <div className="hidden peer-hover:inline  absolute right-0 top-6 mr-[135px] lg:mr-[335px]">
+                <img src="/bubble.svg" alt="" />
             </div>
             <div className="sm:hidden rounded-full flex mr-[20px] absolute right-0 top-5 justify-center items-center hover:bg-gray-50 cursor-pointer w-[40px] h-[40px] border-dashed border">
                 <img src="/dots.svg" alt="" />
@@ -40,7 +33,7 @@ const Profile = () => {
                 @obasiharold
             </p>
             <p className="font-inter font-bold mt-3 hidden" id="slack">
-                @obasiharold
+                haroldobasi
             </p>
         </div>
     );
