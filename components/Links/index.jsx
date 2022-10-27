@@ -15,11 +15,11 @@ const Links = () => (
                 </p>
             </div>
         ))}
-        <div className="rounded-md mx-[144px] py-5 my-4 sm:flex justify-center flex-row hidden">
+        <div className="rounded-md mx-[144px] py-5 my-4 flex justify-center flex-row ">
             <a href="https://www.slack.com">
                 <img src="slack.png" alt="" className="w-6 mx-3" />
             </a>
-            <a href="https://www.github.com/haroldobasi">
+            <a href="https://www.github.com/haroldobasi/next_app">
                 <img src="/github.png" alt="" className="w-6 mx-3" />{" "}
             </a>
         </div>
