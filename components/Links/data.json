@@ -5,7 +5,7 @@
         "url": "https://www.twitter.com/"
     },
     {
-        "id": "btn_zuri",
+        "id": "btn__zuri",
         "name": "Zuri Team",
         "url": "https://training.zuri.team/"
     },
@@ -15,7 +15,7 @@
         "url": "http://books.zuri.team"
     },
     {
-        "id": "book_python",
+        "id": "book__python",
         "name": "Python Books",
         "url": "https://books.zuri.team/python-for-beginners?ref_id=haroldobasi"
     },
